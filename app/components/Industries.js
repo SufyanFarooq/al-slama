@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLeaf, FaPlane, FaBolt, FaBuilding, FaCalendarAlt, FaTruck, FaStore, FaShieldAlt, FaShip, FaTools } from "react-icons/fa";
+import { FaLeaf, FaPlane, FaBolt, FaBuilding, FaCalendarAlt, FaTruck, FaStore, FaShieldAlt, FaShip, FaTools, FaRecycle, FaGlobe } from "react-icons/fa";
 
 const industries = [
   { name: "Agriculture & Landscaping", icon: <FaLeaf className="text-blue-600 text-3xl" />, desc: "Essential for every farmer's success" },
@@ -12,6 +12,8 @@ const industries = [
   { name: "Defence & Military", icon: <FaShieldAlt className="text-blue-600 text-3xl" />, desc: "Trusted for critical missions" },
   { name: "Marine & Ports", icon: <FaShip className="text-blue-600 text-3xl" />, desc: "Efficient port operations" },
   { name: "Facility Management", icon: <FaTools className="text-blue-600 text-3xl" />, desc: "Comprehensive facility care" },
+  { name: "Environmental Services", icon: <FaRecycle className="text-blue-600 text-3xl" />, desc: "Sustainable waste & recycling solutions" },
+  { name: "Global Projects", icon: <FaGlobe className="text-blue-600 text-3xl" />, desc: "International reach for diverse needs" },
 ];
 
 const Industries = () => (
