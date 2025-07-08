@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Alslama Transport | Mobile Crane Rental Dubai | Heavy Lifting Services UAE",
     description: "Mobile crane rental and heavy lifting services in Dubai, UAE. Sany, Tadano, Zoomlion cranes available for industrial, construction, and transport projects.",
-    url: "https://alslamatransport.com/",
+    url: "https://alslama.netlify.app/",
     siteName: "Alslama Transport",
     images: [
       {
