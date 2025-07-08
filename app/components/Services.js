@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaCheck, FaIndustry, FaWeightHanging, FaRulerCombined } from "react-icons/fa";
+import { FaIndustry, FaWeightHanging, FaRulerCombined, FaInfoCircle } from "react-icons/fa";
 import { GiHook } from "react-icons/gi";
 
 const cranes = [
@@ -32,11 +32,11 @@ const Services = () => (
                 <h3 className="text-base md:text-lg font-bold text-blue-900 mb-1 flex items-center gap-2 text-center mt-6"><FaIndustry className="text-blue-900" />Crane Company: <span className="font-semibold">{crane.company}</span></h3>
                 <span className="text-gray-700 font-medium flex items-center gap-2 text-center"><FaWeightHanging className="text-blue-900" />Crane Capacity: {crane.capacity}</span>
                 <span className="text-gray-700 font-medium flex items-center gap-2 text-center mb-2"><FaRulerCombined className="text-blue-900" />Boom Length: {crane.boom}</span>
-                <div className="w-full flex justify-center h-52 mb-2 mt-2">
-                  <Image src={crane.image} alt="Crane" width={320} height={208} className="object-contain rounded-lg h-full w-auto" />
+                <div className="w-full flex justify-center h-64 mb-2 mt-2">
+                  <Image src={crane.image} alt="Crane" width={380} height={248} className="object-contain rounded-lg h-full w-auto" />
                 </div>
                 <div className="flex items-start w-full pb-2">
-                  <FaCheck className="text-blue-900 mt-1 mr-3 text-xl shrink-0" />
+                  <FaInfoCircle className="text-blue-700 mt-1 mr-3 text-xl shrink-0" />
                   <span className="text-gray-900 text-base leading-relaxed">{crane.description}</span>
                 </div>
               </div>
