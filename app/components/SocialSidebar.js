@@ -19,7 +19,7 @@ const SocialSidebar = () => (
         className="group relative flex items-center"
         aria-label={s.label}
       >
-        <div className="bg-white text-gray-800 shadow-lg rounded-full w-14 h-14 flex items-center justify-center transition-transform duration-300 group-hover:translate-x-4 group-hover:bg-blue-600 group-hover:text-white cursor-pointer">
+        <div className="bg-white text-gray-800 shadow-lg rounded-full w-10 h-10 flex items-center justify-center transition-transform duration-300 group-hover:translate-x-4 group-hover:bg-blue-600 group-hover:text-white cursor-pointer">
           {s.icon}
         </div>
         <span className="absolute left-16 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300 bg-blue-600 text-white px-3 py-1 rounded shadow text-sm whitespace-nowrap">

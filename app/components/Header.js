@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt, FaEnvelope, FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const MiniHeader = () => (
@@ -57,7 +58,9 @@ const Header = () => (
     {/* <MiniHeader /> */}
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
-        <div className="text-2xl font-bold text-blue-900">Alslama Transport</div>
+        <div className="flex items-center">
+          <Image src="/logo.png" alt="Alslama Transport Logo" width={150} height={80} className="object-contain" />
+        </div>
         <nav className="space-x-6 hidden md:block">
           <a href="#services" className="text-gray-700 hover:text-blue-700 font-medium">Mobile Crane</a>
           <a href="#industries" className="text-gray-700 hover:text-blue-700 font-medium">Industries</a>
