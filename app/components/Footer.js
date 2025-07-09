@@ -28,7 +28,7 @@ const Footer = () => (
       </div>
     </div>
     {/* Copyright */}
-    <div className="text-xs text-blue-200 text-center mt-6">© 2022 - 2025 | All Rights Reserve | Powered by <a href="https://techtunix.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400">Techtunix</a></div>
+    <div className="text-sm font-medium text-blue-200 text-center mt-6">© 2022 - 2025 | All Rights Reserve | Powered by <a href="https://techtunix.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400">Techtunix</a></div>
   </footer>
 );
 
