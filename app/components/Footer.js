@@ -16,19 +16,19 @@ const Footer = () => (
           <Image src="/file.svg" alt="Alslama Logo" width={36} height={36} className="drop-shadow" />
           <span className="font-bold text-xl tracking-wide">Alslama Transport LLC</span>
         </div>
-        <div className="flex items-center gap-2 text-sm text-blue-200"><FaMapMarkerAlt className="text-blue-300" />Dubai, UAE</div>
-        <div className="flex items-center gap-2 text-sm text-blue-200 mt-1"><FaPhoneAlt className="text-blue-300" />+971 55 807 1397 | +971 50 768 0973</div>
+        <div className="flex items-center gap-2 text-sm text-blue-200"><FaMapMarkerAlt className="text-blue-300" />Al Qusais Industrial Area 4 - Dubai</div>
+        <div className="flex items-center gap-2 text-sm text-blue-200 mt-1"><FaPhoneAlt className="text-blue-300" />+971 50 346 4975</div>
       </div>
       {/* Social Icons (match sidebar) */}
       <div className="flex space-x-4 mb-4 md:mb-0 w-full md:w-1/4 justify-center md:justify-end">
         <a href="#" aria-label="Twitter" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaTwitter size={20} /></a>
         <a href="#" aria-label="Facebook" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaFacebookF size={20} /></a>
-        <a href="mailto:social@codebridge.info" aria-label="Gmail" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaEnvelope size={20} /></a>
-        <a href="https://wa.me/971558071397" aria-label="WhatsApp" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaWhatsapp size={20} /></a>
+        <a href="mailto:alsalamatransport1@gmail.com" aria-label="Gmail" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaEnvelope size={20} /></a>
+        <a href="https://wa.me/971503464975" aria-label="WhatsApp" className="bg-blue-800 hover:bg-blue-600 transition p-2 rounded-full text-blue-200 hover:text-white shadow"><FaWhatsapp size={20} /></a>
       </div>
     </div>
     {/* Copyright */}
-    <div className="text-sm font-medium text-blue-200 text-center mt-6">© 2022 - 2025 | All Rights Reserve | Powered by <a href="https://techtunix.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400">Techtunix</a></div>
+    <div className="text-sm font-medium text-blue-200 text-center mt-6">© 2022 - {new Date().getFullYear()} | All Rights Reserve | Powered by <a href="https://techtunix.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-400">Techtunix</a></div>
   </footer>
 );
 

@@ -15,7 +15,7 @@ const ContactForm = () => (
           </div>
           <div className="flex items-center gap-3 mb-3">
             <FaEnvelope className="text-xl" />
-            <span className="text-lg font-medium">social@codebridge.info</span>
+            <span className="text-lg font-medium">alsalamatransport1@gmail.com</span>
           </div>
         </div>
         {/* Right: Form */}

@@ -4,8 +4,8 @@ import { FaTwitter, FaFacebookF, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 const socials = [
   { icon: <FaTwitter />, link: "#", label: "Twitter" },
   { icon: <FaFacebookF />, link: "#", label: "Facebook" },
-  { icon: <FaEnvelope />, link: "mailto:social@codebridge.info", label: "Gmail" },
-  { icon: <FaWhatsapp />, link: "https://wa.me/971558071397", label: "WhatsApp" },
+  { icon: <FaEnvelope />, link: "mailto:alsalamatransport1@gmail.com", label: "Gmail" },
+  { icon: <FaWhatsapp />, link: "https://wa.me/971503464975", label: "WhatsApp" },
 ];
 
 const SocialSidebar = () => (
