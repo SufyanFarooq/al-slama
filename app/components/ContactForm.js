@@ -11,7 +11,7 @@ const ContactForm = () => (
           <p className="mb-8 opacity-90">Our team will get in touch with you as soon as possible. Please fill out the form and we'll call you back!</p>
           <div className="flex items-center gap-3 mb-3">
             <FaPhone className="text-xl" />
-            <span className="text-lg font-medium">+971 55 807 1397</span>
+            <span className="text-lg font-medium">+971 55 939 2802</span>
           </div>
           <div className="flex items-center gap-3 mb-3">
             <FaEnvelope className="text-xl" />

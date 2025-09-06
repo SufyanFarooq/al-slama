@@ -5,7 +5,7 @@ const socials = [
   { icon: <FaTwitter />, link: "#", label: "Twitter" },
   { icon: <FaFacebookF />, link: "#", label: "Facebook" },
   { icon: <FaEnvelope />, link: "mailto:alsalamatransport1@gmail.com", label: "Gmail" },
-  { icon: <FaWhatsapp />, link: "https://wa.me/971503464975", label: "WhatsApp" },
+  { icon: <FaWhatsapp />, link: "https://wa.me/971559392802", label: "WhatsApp" },
 ];
 
 const SocialSidebar = () => (

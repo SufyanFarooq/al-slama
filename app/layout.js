@@ -1,17 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AppClientWrapper from "./components/AppClientWrapper";
 import SocialSidebar from "./components/SocialSidebar";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Alslama Transport | Mobile Crane Rental Dubai | Heavy Lifting Services UAE",
@@ -19,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: "Alslama Transport | Mobile Crane Rental Dubai | Heavy Lifting Services UAE",
     description: "Mobile crane rental and heavy lifting services in Dubai, UAE. Sany, Tadano, Zoomlion cranes available for industrial, construction, and transport projects.",
-    url: "https://alslama.netlify.app/",
+    url: "https://alsalamatransport.org/",
     siteName: "Alslama Transport",
     images: [
       {
@@ -50,10 +39,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         <AppClientWrapper>
           <SocialSidebar />
           {children}
